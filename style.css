@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald/Oswald-VariableFont_wght.ttf") url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2px 2px;
+  background: #fff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container .nav-items {
+  margin-left: 20px;
+  padding: 15px;
+}
+.nav-container .nav-items a {
+  display: inline-block;
+  padding-top: 25px;
+  margin-left: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+}
+.nav-container .nav-items a:hover {
+  color: #6820BF;
+}
+.nav-container .nav-items .direct-btn {
+  border-radius: 100px;
+  padding: 15px;
+  margin-left: 10px;
+  transition: 0.3s;
+  color: #E6E6E6;
+  font-weight: bold;
+  background: #D02345;
+}
+.nav-container .nav-items .direct-btn:hover {
+  background: #E6E6E6;
+  color: #D02345;
+}
+
+.church {
+  background-image: url("/img/img-church1.webp");
+  background-position: center;
+  background-size: cover;
+  margin-top: 85px;
+  height: 100vh;
+}
+.church .church-presentation {
+  display: inline-block;
+  margin: 100px;
+}
+.church .church-presentation img {
+  display: block;
+  margin: 0 auto;
+  width: 72%;
+  height: auto;
+}
+.church .next-section {
+  text-align: center;
+}
+.church .next-section .fa-angle-down {
+  font-size: 50px;
+  font-weight: bold;
+  color: #E6E6E6;
+}
+
+.about-container {
+  display: inline-block;
+  width: 85%;
+  margin: 10% 0;
+}
+
+.about-church {
+  background: url("/img/church-img2.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.about-church .about-title h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  color: #FFFFFF;
+}
+.about-church .about-title-text .title-descri {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.3rem;
+  color: #FFFFFF;
+}
+.about-church .title-btn {
+  background: #FFFFFF;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.about-church .title-btn:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+.about-church .title-btn .btn-title {
+  display: block;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-decoration: none;
+  padding: 20px 40px;
+  color: #000000;
+}
+.about-church .title-btn .btn-title:hover {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
