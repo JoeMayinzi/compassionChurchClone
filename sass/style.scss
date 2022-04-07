@@ -19,14 +19,13 @@ body{
 }
 
 nav{
-    position: fixed;
+    /*position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
     
     box-shadow: 0 0 2px 2px;
-    
-    background: #fff;
+    background: $whiteColor;
 }
 .nav-container{
     display: flex;
@@ -44,8 +43,9 @@ nav{
             text-transform: uppercase;
             text-align: center;
             color: #000; 
-            font-weight: bold;
-            font-size: 12px;
+            font-weight: normal;
+            font-size: 15px;
+            font-family: "Oswald", sans-serif;
             &:hover{
                 color: #6820BF;
             }
@@ -71,7 +71,7 @@ nav{
     background-image: url("/img/img-church1.webp");
     background-position: center;
     background-size: cover;
-    margin-top: 85px;
+    //margin-top: 85px;
     height: 100vh;
     .church-presentation{
         display: inline-block;
@@ -97,7 +97,7 @@ nav{
 .about-container{
     display: inline-block;
     width: 85%;
-    margin: 10% 0;
+    margin: 10% 8%;
 }
 .about-church{
     background: url("/img/church-img2.jpeg");
@@ -136,7 +136,7 @@ nav{
         transition: .3s;
         &:hover{
             background: $blackColor;
-            color: #FFFFFF
+            color: $whiteColor
         }
         .btn-title{
             display: block;
@@ -150,6 +150,94 @@ nav{
             color: $blackColor;
             &:hover{
                 color: $whiteColor;
+            }
+        }
+    }
+}
+
+.values{
+    width: 100%;
+    overflow: hidden;
+    background: $whiteColor;
+    .values-title{
+        font-family: "Montserrat", Sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1.3rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .values-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .love{
+           padding: 50px;
+            text-align: center;
+            height: 400px;
+            img{
+                
+            }
+            p{
+                color: #303daf;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: "Oswald", sans-serif;
+                text-transform: capitalize;
+                display: inline-block;
+                margin: 0;
+            }
+        }
+        .holiness{
+            padding: 50px;
+            text-align: center;
+            height: 400px;
+            img{
+               
+            }
+            p{
+                color: #04677e;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: "Oswald", sans-serif;
+                text-transform: capitalize;
+                display: inline-block;
+                margin: 0;
+            }
+        }
+        .power{
+            padding: 50px;
+            text-align: center;
+            height: 400px;
+            img{
+                
+            }
+            p{
+                color: #700121;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: "Oswald", sans-serif;
+                text-transform: capitalize;
+                display: inline;
+                margin: 0;
+            }
+        }
+        .balance{
+            padding: 50px;
+            height: 400px;
+            text-align: center;
+            img{
+                height: auto;
+            }
+            p{
+                color: #af6f05;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: "Oswald", sans-serif;
+                text-transform: capitalize;
+                display: inline-block;
+                margin: 0;
             }
         }
     }

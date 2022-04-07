@@ -12,12 +12,12 @@ body {
 }
 
 nav {
-  position: fixed;
+  /*position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0;*/
   box-shadow: 0 0 2px 2px;
-  background: #fff;
+  background: #FFFFFF;
 }
 
 .nav-container {
@@ -38,8 +38,9 @@ nav {
   text-transform: uppercase;
   text-align: center;
   color: #000;
-  font-weight: bold;
-  font-size: 12px;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
 }
 .nav-container .nav-items a:hover {
   color: #6820BF;
@@ -62,7 +63,6 @@ nav {
   background-image: url("/img/img-church1.webp");
   background-position: center;
   background-size: cover;
-  margin-top: 85px;
   height: 100vh;
 }
 .church .church-presentation {
@@ -87,7 +87,7 @@ nav {
 .about-container {
   display: inline-block;
   width: 85%;
-  margin: 10% 0;
+  margin: 10% 8%;
 }
 
 .about-church {
@@ -137,6 +137,85 @@ nav {
 }
 .about-church .title-btn .btn-title:hover {
   color: #FFFFFF;
+}
+
+.values {
+  width: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+.values .values-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5% 0;
+}
+.values .values-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.values .values-container .love {
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+}
+.values .values-container .love p {
+  color: #303daf;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0;
+}
+.values .values-container .holiness {
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+}
+.values .values-container .holiness p {
+  color: #04677e;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0;
+}
+.values .values-container .power {
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+}
+.values .values-container .power p {
+  color: #700121;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  display: inline;
+  margin: 0;
+}
+.values .values-container .balance {
+  padding: 50px;
+  height: 400px;
+  text-align: center;
+}
+.values .values-container .balance img {
+  height: auto;
+}
+.values .values-container .balance p {
+  color: #af6f05;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
